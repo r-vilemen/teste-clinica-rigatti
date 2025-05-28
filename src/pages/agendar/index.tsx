@@ -9,8 +9,11 @@ import {
   Input,
 } from "@/ui/styles/Pages/agendar/styles";
 import { Label } from "@/ui/styles/Pages/dashboard/styles";
+import SEO from "@/components/SEO";
+import { AgendarPageTextsSEO } from "@/components/SEO/seoTexts";
 
 export default function Agendar() {
+  const seoText = AgendarPageTextsSEO;
   const router = useRouter();
   const [form, setForm] = useState({
     nome: "",
@@ -57,6 +60,14 @@ export default function Agendar() {
   return (
     <>
       <Container>
+        <SEO
+          title={seoText.title}
+          description={seoText.description}
+          keywords={seoText.keywords}
+          author={seoText.author}
+          url={seoText.url}
+          image={seoText.image}
+        />
         <AgendarWrapper>
           <Title>Agendar nova consulta</Title>
 
