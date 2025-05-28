@@ -33,20 +33,13 @@ export default function Dashboard() {
 
     setNome(nomeSalvo);
 
-    setAgendamentos([
-      {
-        id: "1",
-        especialidade: "Endocrinologia",
-        data: "2025-06-15 14:00",
-        status: "pendente",
-      },
-      {
-        id: "2",
-        especialidade: "Nutrição",
-        data: "2025-06-20 10:00",
-        status: "aprovado",
-      },
-    ]);
+    const armazenados = JSON.parse(
+      localStorage.getItem("agendamentos") || "[]"
+    );
+    const doPaciente = armazenados.filter(
+      (item: any) => item.nome.toLowerCase() === nomeSalvo.toLowerCase()
+    );
+    setAgendamentos(doPaciente);
   }, [router]);
 
   return (
