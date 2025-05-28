@@ -11,6 +11,8 @@ import {
   ScheduleItem,
   Label,
 } from "@/ui/styles/Pages/dashboard/styles";
+import SEO from "@/components/SEO";
+import { DashboardPageTextsSEO } from "@/components/SEO/seoTexts";
 
 interface Agendamento {
   id: string;
@@ -20,6 +22,7 @@ interface Agendamento {
 }
 
 export default function Dashboard() {
+  const seoText = DashboardPageTextsSEO;
   const [nome, setNome] = useState("");
   const [agendamentos, setAgendamentos] = useState<Agendamento[]>([]);
   const router = useRouter();
@@ -45,6 +48,14 @@ export default function Dashboard() {
   return (
     <>
       <Container>
+        <SEO
+          title={seoText.title}
+          description={seoText.description}
+          keywords={seoText.keywords}
+          author={seoText.author}
+          url={seoText.url}
+          image={seoText.image}
+        />
         <DashboardWrapper>
           <Greeting>Olá, {nome}</Greeting>
 
