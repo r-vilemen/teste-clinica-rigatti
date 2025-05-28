@@ -34,7 +34,22 @@ export default function Agendar() {
       return;
     }
 
-    console.log("Dados do agendamento:", form);
+    const username = localStorage.getItem("username");
+
+    const novoAgendamento = {
+      id: String(Date.now()),
+      nome: username,
+      telefone: form.telefone,
+      especialidade: form.especialidade,
+      data: form.data,
+      status: "pendente",
+    };
+
+    const existentes = JSON.parse(localStorage.getItem("agendamentos") || "[]");
+    const atualizados = [...existentes, novoAgendamento];
+
+    localStorage.setItem("agendamentos", JSON.stringify(atualizados));
+
     alert("Agendamento enviado com sucesso!");
     router.push("/dashboard");
   };
