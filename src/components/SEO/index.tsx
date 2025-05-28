@@ -40,10 +40,10 @@ export default SEO;
 
 //! (RECOMENDADO)
 
-//° import SEO from "@/components/SEO";
-//° import { ExemploPageTextsSEO } from "@/components/SEO/seoTexts";
+//? import SEO from "@/components/SEO";
+//? import { ExemploPageTextsSEO } from "@/components/SEO/seoTexts";
 
-//° const seoText = ExemploPageTextsSEO;
+//? const seoText = ExemploPageTextsSEO;
 
 //?     <SEO
 //?       title={seoText.title}
