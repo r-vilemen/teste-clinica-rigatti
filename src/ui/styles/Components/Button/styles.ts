@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.colors.backgrounds.quaternary};
-  color: ${({ theme }) => theme.colors.text.quinary};
+  color: ${({ theme }) => theme.colors.text.primary};
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: ${({ theme }) => theme.sizes.border.radius.primary};
