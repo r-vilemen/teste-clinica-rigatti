@@ -13,27 +13,27 @@ const theme = {
   },
   colors: {
     backgrounds: {
-      primary: "#000000",
-      secondary: "#2AFAA8",
+      primary: "#F3FAF6",
+      secondary: "#DFF3EC",
       tertiary: "#ffffff",
       quaternary: "#12b072",
-      quinary: "#232323",
+      quinary: "#f0f0f0",
       sextenary: "#A4B8B0",
-      septenary: "#527165 ",
+      septenary: "#527165",
     },
     text: {
-      primary: "#ffffff",
-      secondary: "#2AFAA8",
-      tertiary: "#000000",
-      quaternary: "#979797",
-      quinary: "#c1c1c1",
+      primary: "#1A1A1A",
+      secondary: "#12b072",
+      tertiary: "#666666",
+      quaternary: "#999999",
+      quinary: "#ffffff",
     },
     border: {
       colors: {
-        primary: "#ffffff",
-        secundary: "#2AFAA8",
-        terciary: "#797979",
-        quaternary: "#b3edd2",
+        primary: "#CDE6DB",
+        secundary: "#12b072",
+        terciary: "#A9C8B8",
+        quaternary: "#E0E0E0",
         quinary: "#BCBEC0",
       },
     },
@@ -41,8 +41,8 @@ const theme = {
   sizes: {
     font: {
       primary: "1rem",
-      secundary: "1.5rem",
-      terciary: "2rem",
+      secundary: "1.25rem",
+      terciary: "1.75rem",
     },
     border: {
       primary: "2px",
@@ -53,6 +53,10 @@ const theme = {
         teriary: "25px",
       },
     },
+  },
+  fonts: {
+    primary: "'Poppins', sans-serif",
+    secondary: "'Roboto', sans-serif",
   },
 };
 
