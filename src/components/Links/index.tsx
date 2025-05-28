@@ -2,6 +2,7 @@
 const fonts = [
   "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap",
   "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap",
+  "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&display=swap",
 ];
 
 export const HeadLinks = () => (
