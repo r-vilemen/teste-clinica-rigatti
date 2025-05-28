@@ -44,3 +44,25 @@ export const DashboardPageTextsSEO = {
   url: "https://teste-clinica-rigatti.vercel.app/dashboard",
   image: "@/ui/assets/images/default-dashboard.svg",
 };
+
+export const AdminPageTextsSEO = {
+  title: "Admin - Gerenciar Agendamentos | Clínica Rigatti",
+  description:
+    "Painel administrativo da Clínica Rigatti. Aprove ou reprove agendamentos de pacientes de forma rápida e centralizada.",
+  keywords:
+    "admin, painel administrativo, gerenciar agendamentos, clínica Rigatti, aprovar consultas, administração médica",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/admin",
+  image: "@/ui/assets/images/default-admin.svg",
+};
+
+export const AgendarPageTextsSEO = {
+  title: "Agendar Consulta - Clínica Rigatti",
+  description:
+    "Preencha o formulário para agendar uma nova consulta na Clínica Rigatti. Simples, rápido e sem complicações.",
+  keywords:
+    "agendar consulta, clínica Rigatti, marcar consulta, formulário, atendimento médico, especialidade, saúde",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/agendar",
+  image: "@/ui/assets/images/default-agendar.svg",
+};
