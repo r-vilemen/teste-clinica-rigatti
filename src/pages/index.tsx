@@ -21,8 +21,6 @@ export default function Home() {
         url={seoText.url}
         image={seoText.image}
       />
-
-      <h1>home page</h1>
     </div>
   );
 }
