@@ -36,13 +36,13 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors.backgrounds.secondary};
+    background: ${({ theme }) => theme.colors.backgrounds.primary};
   }
 
   ::-webkit-scrollbar-thumb {
     background: linear-gradient(
       100deg,
-      ${({ theme }) => theme.colors.backgrounds.secondary} 20%,
+      ${({ theme }) => theme.colors.backgrounds.primary} 20%,
       ${({ theme }) => theme.colors.backgrounds.quaternary} 50%,
       ${({ theme }) => theme.colors.backgrounds.quaternary} 100%
     );
@@ -51,12 +51,12 @@ const GlobalStyles = createGlobalStyle`
 
   /* Seleção de texto */
   ::-moz-selection {
-    color: ${({ theme }) => theme.colors.text.quinary};
+    color: ${({ theme }) => theme.colors.text.primary};
     background: ${({ theme }) => theme.colors.backgrounds.quaternary};
   }
 
   ::selection {
-    color: ${({ theme }) => theme.colors.text.quinary};
+    color: ${({ theme }) => theme.colors.text.primary};
     background: ${({ theme }) => theme.colors.backgrounds.quaternary};
   }
 
