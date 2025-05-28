@@ -1,5 +1,12 @@
 import React from "react";
+import { HeaderWrapper, Title } from "@/ui/styles/Components/Header/styles";
 
-export function Header() {
-  return <header>Header</header>;
-}
+const Header = () => {
+  return (
+    <HeaderWrapper>
+      <Title>Clínica Rigatti — Agendamentos</Title>
+    </HeaderWrapper>
+  );
+};
+
+export default Header;
