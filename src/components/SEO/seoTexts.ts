@@ -1,44 +1,46 @@
 // SEO para a página inicial
 export const HomePageTextsSEO = {
-  title: "Template Next.js - Inicie Seus Projetos com Facilidade",
+  title: "Clínica Rigatti — Sistema de Agendamento de Consultas",
   description:
-    "Um template genérico para Next.js que facilita o início de projetos, com funcionalidades prontas e organização de pastas.",
+    "Sistema moderno e simplificado para agendamento de consultas na Clínica Rigatti. Desenvolvido com foco na experiência do paciente e na eficiência da equipe.",
   keywords:
-    "template Next.js, projetos Next.js, desenvolvimento web, estrutura de pastas, funções utilitárias",
-  author: "Seu Nome ou Projeto",
-  url: "https://seu-template-next.vercel.app/",
+    "Clínica Rigatti, agendamento de consultas, sistema médico, atendimento, saúde, medicina, paciente",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/",
   image: "@/ui/assets/images/default-home.svg",
 };
 
 // SEO para a página de login
 export const LoginPageTextsSEO = {
-  title: "Login - Acesse sua Conta",
+  title: "Login - Acesso ao Sistema da Clínica Rigatti",
   description:
-    "Faça login para acessar a área administrativa do seu projeto Next.js.",
-  keywords: "login, template Next.js, acesso, conta",
-  author: "Seu Nome ou Projeto",
-  url: "https://seu-template-next.vercel.app/login",
+    "Área de acesso ao sistema de agendamento da Clínica Rigatti. Pacientes e administradores devem se identificar para continuar.",
+  keywords:
+    "login, acesso, sistema Rigatti, clínica, consulta, paciente, admin",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/login",
   image: "@/ui/assets/images/default-login.svg",
 };
 
-// SEO para a página de cadastro
+// SEO para a página de cadastro (simulação)
 export const CadastroPageTextsSEO = {
-  title: "Cadastro - Crie sua Conta",
+  title: "Cadastro - Crie seu Acesso (Simulado)",
   description:
-    "Cadastre-se para ter acesso ao template e suas funcionalidades personalizadas.",
-  keywords: "cadastro, template Next.js, criar conta",
-  author: "Seu Nome ou Projeto",
-  url: "https://seu-template-next.vercel.app/register",
+    "Página de cadastro genérica para simulação de acesso no sistema de agendamentos da Clínica Rigatti.",
+  keywords: "cadastro, conta, sistema, clínica Rigatti",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/register",
   image: "@/ui/assets/images/default-cadastro.svg",
 };
 
 // SEO para o dashboard
 export const DashboardPageTextsSEO = {
-  title: "Dashboard - Gerencie seu Projeto Next.js",
+  title: "Dashboard - Seus Agendamentos na Clínica Rigatti",
   description:
-    "Acesse o dashboard para visualizar dados e gerenciar seu projeto com facilidade.",
-  keywords: "dashboard, template Next.js, gerenciamento de projeto, dados",
-  author: "Seu Nome ou Projeto",
-  url: "https://seu-template-next.vercel.app/dashboard",
+    "Visualize suas consultas agendadas, datas e status. Acompanhe tudo com transparência pelo seu painel personalizado.",
+  keywords:
+    "dashboard, consultas agendadas, sistema de agendamento, paciente, clínica Rigatti",
+  author: "Rodrigo Vilemen",
+  url: "https://teste-clinica-rigatti.vercel.app/dashboard",
   image: "@/ui/assets/images/default-dashboard.svg",
 };
