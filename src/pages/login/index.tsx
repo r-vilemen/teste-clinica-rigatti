@@ -8,8 +8,11 @@ import {
   LoginWrapper,
 } from "@/ui/styles/Pages/login/styles";
 import Button from "@/components/Button";
+import SEO from "@/components/SEO";
+import { LoginPageTextsSEO } from "@/components/SEO/seoTexts";
 
 export default function Login() {
+  const seoText = LoginPageTextsSEO;
   const [username, setUsername] = useState("");
   const router = useRouter();
 
@@ -28,6 +31,14 @@ export default function Login() {
   return (
     <>
       <Container>
+        <SEO
+          title={seoText.title}
+          description={seoText.description}
+          keywords={seoText.keywords}
+          author={seoText.author}
+          url={seoText.url}
+          image={seoText.image}
+        />
         <LoginWrapper>
           <LoginBox>
             <LoginTitle>Entrar no sistema</LoginTitle>
