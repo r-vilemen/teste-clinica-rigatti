@@ -17,6 +17,7 @@ export default function Login() {
     if (!username.trim()) return alert("Digite um nome");
 
     if (username.toLowerCase() === "admin") {
+      localStorage.setItem("username", "admin");
       router.push("/admin");
     } else {
       localStorage.setItem("username", username);
