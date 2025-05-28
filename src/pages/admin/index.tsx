@@ -11,6 +11,8 @@ import {
   Status,
   Title,
 } from "@/ui/styles/Pages/admin/styles";
+import SEO from "@/components/SEO";
+import { AdminPageTextsSEO } from "@/components/SEO/seoTexts";
 
 interface Agendamento {
   id: string;
@@ -22,6 +24,7 @@ interface Agendamento {
 }
 
 export default function Admin() {
+  const seoText = AdminPageTextsSEO;
   const router = useRouter();
   const [agendamentos, setAgendamentos] = useState<Agendamento[]>([]);
 
@@ -49,6 +52,14 @@ export default function Admin() {
   return (
     <>
       <Container>
+        <SEO
+          title={seoText.title}
+          description={seoText.description}
+          keywords={seoText.keywords}
+          author={seoText.author}
+          url={seoText.url}
+          image={seoText.image}
+        />
         <AdminWrapper>
           <Title>Todos os agendamentos</Title>
 
