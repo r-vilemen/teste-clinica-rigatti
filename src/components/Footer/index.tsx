@@ -3,8 +3,16 @@ import { FooterWrapper, Strong } from "@/ui/styles/Components/Footer/styles";
 const Footer = () => {
   return (
     <FooterWrapper>
-      Projeto desenvolvido por <Strong>Rodrigo Vilemen</Strong> — Front-End
-      Developer.
+      Projeto desenvolvido por{" "}
+      <a
+        href="https://www.linkedin.com/in/rodrigo-vilemen/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "inherit", textDecoration: "underline" }}
+      >
+        <Strong>Rodrigo Vilemen</Strong>
+      </a>{" "}
+      — Front-End Developer.
       <br />
       Código disponível em:{" "}
       <a
